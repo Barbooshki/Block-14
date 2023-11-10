@@ -1,0 +1,51 @@
+/* Add this CSS to a separate .css file or include it within a <style> tag in your HTML */
+
+/* Style the body of the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    color: #333;
+}
+
+/* Style the input field and button */
+#fahrenheitInput {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#convertButton {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#convertButton:hover {
+    background-color: #45a049;
+}
+
+/* Style the result paragraphs */
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Style the message display */
+#messageDisplay {
+    font-weight: bold;
+}
+
+/* Style the Celsius display */
+#celsiusDisplay {
+    font-style: italic;
+}
